@@ -3,7 +3,7 @@ import Editor from './components/Editor'
 import OutputPanel from './components/OutputPanel'
 import ErrorConsole from './components/ErrorConsole'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const API_URL = import.meta.env.VITE_API_URL || 'minilang-compiler-backend-production.up.railway.app'
 
 const SAMPLE_CODE = `int x = 10;
 int y = 20;
