@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+:root {
+  --bg-primary:   #0d0d0f;
+  --bg-panel:     #141418;
+  --bg-card:      #1a1a20;
+  --accent-green: #00ff9d;
+  --accent-blue:  #4d9fff;
+  --accent-orange:#ff8c42;
+  --accent-purple:#b06aff;
+  --text-primary: #e8e8f0;
+  --text-muted:   #6b6b80;
+  --border:       #2a2a35;
+  --font-mono:    'JetBrains Mono', monospace;
+  --font-ui:      'Syne', sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-ui);
+  height: 100vh;
+  overflow: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Syne:wght@400;600;700&display=swap');
