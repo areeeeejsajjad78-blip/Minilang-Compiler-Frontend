@@ -9,14 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@uiw/react-codemirror": "^4.21.21",
+    "@codemirror/lang-javascript": "^6.2.2",
     "@codemirror/theme-one-dark": "^6.1.2",
+    "@uiw/react-codemirror": "^4.21.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.2.1",
     "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
     "tailwindcss": "^4.0.0",
     "vite": "^5.0.8"
   }
